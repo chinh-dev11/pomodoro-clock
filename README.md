@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Required to run under Node.js v13.
+## Build fail fixes
+- Node.js v18.
+- eslint-plugin-react-hooks v4.
+- node-sass v8.
 
 ## Available Scripts
 
