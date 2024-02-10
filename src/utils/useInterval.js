@@ -72,6 +72,7 @@ export default (delay, sessionLength, breakLength) => {
     } else if (intervalStatus === INTERVAL_STATUS.looping) {
       play(); // looping
     }
+    // eslint-disable-next-line
   }, [intervalStatus, sessionLength]);
 
   return {
