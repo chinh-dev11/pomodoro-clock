@@ -5,7 +5,6 @@ import { PlayArrow, Pause, Autorenew } from '@material-ui/icons';
 import { resetClock } from '../store';
 import theme from '../theme';
 
-
 const ControlsComponent = (props) => {
   const {
     resetClockHandler, play, pause, reset,

@@ -10,7 +10,6 @@ import BreakComponent from './BreakComponent';
 import TimeComponent from '../components/TimeComponent';
 import './ClockComponent.scss';
 
-
 const ClockComponent = (props) => {
   const { breakLength, sessionLength } = { ...props };
   const {

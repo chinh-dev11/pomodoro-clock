@@ -14,7 +14,6 @@ const INTERVAL_STATUS = {
 
 const newSoundFx = new UIfx(soundfx);
 
-
 export default (delay, sessionLength, breakLength) => {
   const [count, setCount] = useState(sessionLength);
   const [intervalStatus, setIntervalStatus] = useState(INTERVAL_STATUS.reset);

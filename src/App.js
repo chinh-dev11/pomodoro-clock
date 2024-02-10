@@ -8,7 +8,6 @@ import './App.css';
 
 const store = createStore(clockReducer);
 
-
 function App() {
   return (
     <Provider store={store}>
